@@ -108,4 +108,15 @@ echo "¯\_(ツ)_/¯"
 echo ""
 
 # XD
-alias clear='clear;echo "\n¯\_(ツ)_/¯\n"'
+alias clear='clear;echo "\n¯\_(ツ)_/¯"'
+
+function clear-scrn() {
+  clear
+  zle accept-line
+}
+
+# Define a widget called "clear-scrn", mapped to our function above.
+zle -N clear-scrn
+
+# Bind it to Ctrl-K.
+bindkey "^k" clear-scrn
