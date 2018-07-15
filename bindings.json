@@ -1,7 +1,7 @@
 {
-	".zshrc": {
-		"target": "~/.zshrc",
-		"notes": "zsh config. Requires oh-my-zsh framework. Use with .LS_COLORS and agnoster-mod.zsh-theme"
+    ".zshrc": {
+        "target": "~/.zshrc",
+        "notes": "zsh config. Requires oh-my-zsh framework. Use with .LS_COLORS and agnoster-mod.zsh-theme"
     },
     ".LS_COLORS": {
         "target": "~/.LS_COLORS",
@@ -14,5 +14,9 @@
     ".tmux.conf": {
         "target": "~/.tmux.conf",
         "notes": "Tmux conf"
+    },
+    "config_0": {
+        "target": "~/.config/tilda/config_0",
+        "notes": "Tilda conf"
     }
 }
