@@ -1,0 +1,18 @@
+{
+	".zshrc": {
+		"target": "~/.zshrc",
+		"notes": "zsh config. Requires oh-my-zsh framework. Use with .LS_COLORS and agnoster-mod.zsh-theme"
+    },
+    ".LS_COLORS": {
+        "target": "~/.LS_COLORS",
+        "notes": "Set of LS_COLORS parameters. Required by .zshrc"
+    },
+    "agnoster-mod.zsh-theme": {
+        "target": "~/.oh-my-zsh/themes/.agnoster-mod.zsh-theme",
+        "notes": "Modified agnoster theme for oh-my-zsh. Required by .zshrc"
+    },
+    ".tmux.conf": {
+        "target": "~/.tmux.conf",
+        "notes": "Tmux conf"
+    }
+}
