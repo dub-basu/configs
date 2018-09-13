@@ -129,3 +129,10 @@ LC_MONETARY="en_US.UTF-8"
 LC_NUMERIC="en_US.UTF-8"
 LC_TIME="en_US.UTF-8"
 LC_ALL="en_US.UTF-8"
+
+# Copy and Paste. REQUIRES PACKAGE "xclip".
+# To install using apt, "sudo apt install xclip"
+# To use, pipe content to "copy". Example: "echo "Hello World!" | copy".
+# "Hello World" is copied to the clipboard.
+alias copy="xclip -selection c"
+alias paste="xclip -selection c -o"
