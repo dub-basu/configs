@@ -8,7 +8,7 @@
         "notes": "Set of LS_COLORS parameters. Required by .zshrc"
     },
     "agnoster-mod.zsh-theme": {
-        "target": "~/.oh-my-zsh/themes/.agnoster-mod.zsh-theme",
+        "target": "~/.oh-my-zsh/themes/agnoster-mod.zsh-theme",
         "notes": "Modified agnoster theme for oh-my-zsh. Required by .zshrc"
     },
     ".tmux.conf": {
